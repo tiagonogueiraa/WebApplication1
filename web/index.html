@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>Formulário de cadastro</h1>
+            <form action="url" method="POST">
+                <p>
+                    Nome: <input type="text" name="nome" size="30" />
+                    <br> <br>
+                    Senha: <input type="password" name="senha" maxlength="6" size="10" />
+                </p>
+
+                <p>
+                    Sistema Operacional: 
+                    <input type="checkbox" name="so" value="Windows 95" >Windows 95
+                    <input type="checkbox" name="so" value="Windows 98"> Windows 98
+                    <input type="checkbox" name="so" value="Linux"> Linux<br>
+
+                </p>
+
+
+
+                <p>
+                    Processador: 
+                    <input type="radio" name="hobies" value="web"> Criar páginas web
+                    <input type="radio" name="hobies" value="bicicleta"> Andar de bicicleta
+                    <input type="radio" name="hobies" value="Jogar Futebol"> Jogar futebol
+                    <br>
+
+
+                </p>
+
+
+                <p>
+                    Profissão: 
+                    <select size="1" name="profissao">
+                        <option></option>
+                        <option>Analista de Sistema</option>
+                        <option>Analista de Suporte</option>
+
+                    </select>
+                    <br><br>
+
+
+                </p>
+
+                <p>
+                    Comentários
+                    <textarea rows="6" cols="30" name="mensagem" > </textarea>
+                    <br><br>
+                    <input type="submit" value="Envia dados"> 
+                    <input type="reset" value="Limpa dados"> 
+                </p>
+        </div>
+    </form>
+
+</body>
+</html>
